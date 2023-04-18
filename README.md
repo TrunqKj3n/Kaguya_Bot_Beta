@@ -42,3 +42,10 @@ export default {
 }
 ```
 Lưu file và tiếp tục sử dụng dự án của bạn.
+
+### License & Copyright :
+
+- This Project is
+  [MIT License](https://github.com/TrunqKj3n/TelegramBot_Typescript/blob/main/LICENSE)
+  Licensed
+- Copyright 2023 by [TrunqKj3n](https://facebook.com/ThieuTrungKi3n)
