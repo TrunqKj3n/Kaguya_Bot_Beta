@@ -18,7 +18,8 @@ cd your-repository
 npm install
 ```
 
-## Cấu hình MongoDB URI
+
+## Cấu hình
 
 Mở file setup/config.ts và điền MongoDB URI :
 
@@ -41,7 +42,25 @@ export default {
     }
 }
 ```
+
 Lưu file và tiếp tục sử dụng dự án của bạn.
+
+## Credentials
+
+Đi tới file setup/credentials.json và điền appstate thông qua extensions [C3C-fbstate](https://github.com/c3cbot/c3c-fbstate)
+```json
+[
+    {
+        "key": "sb",
+        "value": "ZHzWY-I3yEuwJCAwhpBgbdu6",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2023-04-13T13:20:08.826Z",
+        "lastAccessed": "2023-04-13T13:20:08.827Z"
+    }
+]
+```
 
 ### License & Copyright :
 
