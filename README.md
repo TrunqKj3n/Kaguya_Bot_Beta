@@ -6,7 +6,7 @@
 Sử dụng git để clone repository bằng lệnh sau:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/TrunqKj3n/Kaguya_18_4_2023
 
 ```
 ## Cài đặt dependencies
