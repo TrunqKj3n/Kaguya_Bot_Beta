@@ -12,6 +12,6 @@ export default {
         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36"
     },
     database: {
-        uri: "mongodb+srv://ttktrungkien:trungkien@cluster0.0rs9x.mongodb.net/?retryWrites=true&w=majority", // put your mongodb uri here
+        uri: "", // put your mongodb uri here
     }
 }
