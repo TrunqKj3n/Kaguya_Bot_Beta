@@ -27,17 +27,19 @@ export class CommandHandler {
         try {
             const { Users, Threads, api, event } = this.arguments;
 
-            const { body, threadID, senderID, isGroup, messageID } = event
+            const { body, threadID, senderID, isGroup, messageID } = event;
+
             if (!body.startsWith(this.config.prefix)) {
                 return;
             }
 
             const { data: { banned: banUser } } = await Users.find(senderID);
-            if (banUser?.status) {
+            if (banUser && banUser.status) {
                 return api.sendMessage(`Bạn đã bị ban với lý do: ${banUser.reason}`, threadID);
             }
 
             const { data: banThread } = await Threads.find(threadID);
+            
             if (isGroup && banThread?.data?.banned?.status) {
                 return api.sendMessage(`Nhóm đã bị ban với lý do: ${banThread.data.banned.reason}`, threadID);
             }
