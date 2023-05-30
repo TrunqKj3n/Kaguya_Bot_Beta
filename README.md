@@ -1,3 +1,5 @@
+# Code vội trong 6 ngày nên sẽ có nhiều bug ... 
+
 # Hướng dẫn cài đặt
 
 Để sử dụng dự án, bạn cần thực hiện các bước sau:
