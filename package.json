@@ -16,7 +16,8 @@
     "fs-extra": "^11.1.1",
     "mongoose": "^7.0.3",
     "string-similarity": "^4.0.4",
-    "vm2": "^3.9.16"
+    "vm2": "^3.9.16",
+    "ts-node": "*"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
