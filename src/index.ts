@@ -61,5 +61,3 @@ async function main() {
 main().catch((error) => {
     console.log('Error occurred: ', error);
 });
-
-// Xử lý các promise không được bắt lại trong quá trình thực thi
